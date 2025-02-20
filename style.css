@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Assest/Bühne\ Elegante\ schwarz\ &\ Gold\ Ornamente\ Digitale\ Fotografie\ Hintergrund\ Digitaler\ Hintergrund\ Moderne\ Fotografie\ Hintergrund\ Geburtstag\ Jahrestag.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow:scroll;
+}
+.click{
+    padding: 0.5em 2.5em;
+    border-radius: 2rem;
+    background-color:0px 0px 10px yellow;
+    font-size: 2em;
+
+    
+}
+.click:hover{
+    background-color: white;
+    transform: scale(1);
+    box-shadow: 0px 0px 10px yellow;
+    backdrop-filter: blur(10px);
+}
+
+
+@media (max-width:500px) {
+    .click{
+        background-color:aliceblue;
+    }
+ 
+}
+
+.happy{
+    font-size: 2em;
+    color: white;
+    font-family: 'YoungSerif';
+    text-shadow: 0px 0px 10px yellow;
+}
